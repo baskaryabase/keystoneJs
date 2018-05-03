@@ -1,13 +1,13 @@
 # keystone Js for admin panel
-1.PreRequisites 
+1.PreRequisites<br/> 
   `npm install -g generator-keystone`<br/>
   `npm install -g yo`
 
-2.run yo keystone to generate template
+2.run yo keystone to generate template<br/>
   `yo keystone`        
 
-3.init keystone server
+3.init keystone server<br/>
   `node keystone` 
 
-4.connect to your private mongo server by
+4.connect to your private mongo server by<br/>
   `MONGO_URI=mongodb://your-server/database-name`
