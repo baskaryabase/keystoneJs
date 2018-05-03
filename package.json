@@ -1,31 +1,21 @@
 {
-  "name": "baskar",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "adminpanel",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "keystone": "4.0.0-beta.5",
+    "lodash": "^4.13.1",
+    "pug": "2.0.0-beta11",
+    "dotenv": "4.0.0",
+    "async": "2.1.4"
+  },
+  "devDependencies": {
+    "eslint": "3.15.0",
+    "eslint-config-keystone": "3.0.0",
+    "eslint-plugin-react": "^5.1.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-     "start": "node index.js"
-  },
-  "engines": {
-    "node": "5.9.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/smilysyndrella/yt-app-build.git"
-  },
-  "author": "baymax",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/smilysyndrella/yt-app-build/issues"
-  },
-  "keywords": [
-    "node",
-    "heroku",
-    "express"
-  ],
-  "homepage": "https://github.com/smilysyndrella/yt-app-build#readme",
-   "dependencies": {
-    "express": "^4.15.2"
+    "lint": "eslint .",
+    "start": "node keystone.js"
   }
 }
