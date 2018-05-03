@@ -9,5 +9,5 @@
 3.init keystone server<br/>
   `node keystone` 
 
-4.connect to your private mongo server by<br/>
+4.connect to your private mongo server by adding this line .env file along with COOKIE_SECRET<br/>
   `MONGO_URI=mongodb://your-server/database-name`
