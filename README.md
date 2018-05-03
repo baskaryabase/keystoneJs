@@ -1,4 +1,4 @@
-# keystone Js for admin panel
+# keystone Js for admin panel with MongoDb
 1.PreRequisites<br/> 
   `npm install -g generator-keystone`<br/>
   `npm install -g yo`
